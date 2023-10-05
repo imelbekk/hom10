@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 100%;
+    height: 1880px;
+    background: #191919;
+
+    .content__item {
+        .asus {
+            display: flex;
+            gap: 700px;
+
+            .content__span {
+                color: #FFF;
+                width: 160px;
+                height: 80px;
+            }
+
+            .content__h1 {
+                color: #FFF;
+                font-size: 64px;
+                font-weight: 400;
+                line-height: 79.2px;
+                margin-left: 60px;
+                margin-top: 100px;
+            }
+
+            .content__button {
+                width: 178px;
+                height: 51px;
+                border-radius: 6px;
+                background: #118DA8;
+                color: #FFF;
+                font-size: 17px;
+                border: none;
+                margin-top: 122px;
+            }
+        }
+
+    }
+
+    .content__item2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .asus2 {
+            width: 1300px;
+            height: 545px;
+            border-radius: 32px;
+            background: #000;
+            margin-right: 100px;
+            margin-top: 66px;
+
+            .content__usha {
+                display: flex;
+                gap: 53px;
+
+                .content__img2 {
+                    .asus__img {
+                        width: 389px;
+                        height: 545px;
+                        padding: 40px;
+                    }
+                }
+
+                .asus3 {
+                    .asus__button3 {
+                        width: 73px;
+                        height: 27px;
+                        border-radius: 6px;
+                        background: #191919;
+                        color: #FFF;
+                        font-size: 18px;
+                        text-align: center;
+                        margin-top: 40px;
+                        border: none;
+
+                    }
+
+                    .asus-3_h5 {
+                        color: #118DA8;
+                        font-size: 17px;
+                        margin-top: 48px;
+                    }
+
+                    .asus-3_h1 {
+                        color: #FFF;
+                        font-size: 64px;
+                        margin-top: 18px;
+                    }
+
+                    .asus-p-1 {
+                        color: rgba(255, 255, 255, 0.70);
+                        font-size: 22px;
+                        margin-top: 28px;
+                    }
+
+                    .button__asus1_oltin {
+                        width: 208px;
+                        height: 51px;
+                        border-radius: 6px;
+                        background: #118DA8;
+                        color: #FFF;
+                        font-size: 18px;
+                        margin-top: 30px;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 447px) {
+    .content {
+        max-width: 450px;
+        height: 800px;
+
+        .content__item {
+            .asus {
+                gap: 70px;
+
+                .content__h1 {
+                    font-size: 14px;
+                    margin-top: 30px;
+                    line-height: 29.2px;
+                }
+
+                .content__button {
+                    width: 78px;
+                    height: 20px;
+                    font-size: 10px;
+                    margin-top: 34px;
+                    margin-left: 50px;
+                }
+            }
+        }
+
+        .content__item2 {
+            .asus2 {
+                width: 320px;
+                height: 200px;
+                border-radius: 22px;
+                margin-top: 20px;
+                margin-left: 40px;
+
+                .content__usha {
+                    gap: 12px;
+
+                    .content__img2 {
+                        .asus__img {
+                            width: 130px;
+                            height: 200px;
+                            padding: 12px;
+                        }
+                    }
+
+                    .asus3 {
+                        .asus__button3 {
+                            width: 33px;
+                            height: 23px;
+                            border-radius: 4px;
+                            font-size: 12px;
+                            margin-top: 15px;
+                        }
+
+                        .asus-3_h5 {
+                            font-size: 8px;
+                            margin-top: 5px;
+                        }
+
+                        .asus-3_h1 {
+                            font-size: 12px;
+                            margin-top: 12px;
+                        }
+
+                        .asus-p-1 {
+                            font-size: 8px;
+                            margin-top: 8px;
+                        }
+
+                        .button__asus1_oltin {
+                            width: 45px;
+                            height: 10px;
+                            border-radius: 6px;
+                            font-size: 4px;
+                            margin-top: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content {
+    max-width: 100%;
+    height: 2080px;
+    background: #191919;
+
+    .content__item3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .asus4 {
+            width: 1300px;
+            height: 545px;
+            border-radius: 32px;
+            background: #000;
+            margin-right: 100px;
+            margin-top: 66px;
+
+            .content__usha2 {
+                display: flex;
+                gap: 53px;
+
+                .content__img3 {
+                    .asus__img3 {
+                        width: 389px;
+                        height: 552px;
+                        padding: 40px;
+                    }
+                }
+
+                .asus5 {
+                    .asus__button4 {
+                        width: 104px;
+                        height: 27px;
+                        border-radius: 6px;
+                        background: #191919;
+                        color: #FFF;
+                        font-size: 18px;
+                        text-align: center;
+                        margin-top: 40px;
+                        border: none;
+
+                    }
+
+                    .asus5-h5 {
+                        color: #118DA8;
+                        font-size: 17px;
+                        margin-top: 48px;
+                    }
+
+                    .asus5-h1 {
+                        color: #FFF;
+                        font-size: 64px;
+                        margin-top: 18px;
+                    }
+
+                    .asus5-p {
+                        color: rgba(255, 255, 255, 0.70);
+                        font-size: 22px;
+                        margin-top: 28px;
+                    }
+
+                    .asus5__button1 {
+                        width: 208px;
+                        height: 51px;
+                        border-radius: 6px;
+                        background: #118DA8;
+                        color: #FFF;
+                        font-size: 18px;
+                        border: none;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .item__cont {
+        width: 100%;
+        height: 943px;
+        background: #191919;
+        padding-top: 200px;
+        display: flex;
+        gap: 90px;
+
+        .item__conta {
+            .radius {
+                width: 112px;
+                height: 112px;
+                flex-shrink: 0;
+                border-radius: 400px;
+                background: #118DA8;
+                margin-left: 74px;
+                margin-top: 20px;
+
+                img {
+                    margin-left: 20px;
+                    margin-top: 35px;
+                }
+
+            }
+
+            .titls {
+                margin-left: 70px;
+
+                .titls_h4 {
+                    color: #118DA8;
+                    font-size: 18px;
+                    margin-top: 20px;
+                }
+
+                .titls_h1 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 65px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 79.2px;
+                    /* 121.846% */
+                    letter-spacing: 2.88px;
+                    margin-top: 28px;
+                }
+
+                .titls_p {
+                    width: 556px;
+                    color: rgba(255, 255, 255, 0.70);
+                    font-family: DM Sans;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    /* 150% */
+                    margin-top: 33px;
+                }
+
+                .titls_p2 {
+                    width: 556px;
+                    color: rgba(255, 255, 255, 0.70);
+                    font-family: DM Sans;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    /* 150% */
+                }
+            }
+
+            .qora-amaki {
+                background: url(../header/sardor.png);
+                width: 550px;
+                height: 643px;
+            }
+        }
+    }
+
+    .sal_qopti {
+        .jichcha {
+            width: 1400px;
+            height: 587px;
+            background: #191919;
+        }
+    }
+}
